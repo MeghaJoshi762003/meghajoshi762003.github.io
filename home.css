@@ -1,0 +1,23 @@
+.nav{
+    height:50px;
+    justify-content :right;
+    padding-left:40em;
+}
+.home
+{
+    background: url("./img/R.png");
+    background-repeat:no-repeat;
+    background-size: 50% 50%;
+    height:25em;
+    opacity:0.6;
+    background-position: center;
+    margin-top:-5%;
+}
+h2{
+    text-align:center;
+}
+.about-img{
+    width:2rem;
+    height:20%;
+
+}

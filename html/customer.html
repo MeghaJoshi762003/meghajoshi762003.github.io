@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transaction</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/meghajoshi762003.github.io/css/customer.css"
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light sticky-md-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TSF Bank</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="/meghajoshi762003.github.io/index.html">Home</a>
+              <a class="nav-link" href="/meghajoshi762003.github.io/index.html">About Us</a>
+              <a class="nav-link" href="./customer.html">Customers</a>
+              <!-- <a class="nav-link" href="#">Transaction</a> -->
+              <a class="nav-link" href="/meghajoshi762003.github.io/index.html">Contact Us</a>
+              <div class="button">
+              <button type="button" class="btn btn-success send" data-toggle="modal" data-target="#sendMoney">Transfer Money</button>
+            </div>
+              <img class="nav" src="/meghajoshi762003.github.io/img/logo_small.png">
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <table class="table table-success table-striped">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Balance</th>
+            <th>Account No.</th>
+            
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Param Sharma</td>
+            <td>param@gmail.com</td>
+            <td id="Param Sharma">50000</td>
+            <td>88XXXXXX33</td>
+            
+
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Priya Mehta</td>
+            <td>priya@gmail.com</td>
+            <td id="Priya Mehta">90000</td>
+            <td>98XXXXXX33</td>
+            
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Arjun Bagul</td>
+            <td>arjun@gmail.com</td>
+            <td id="Arjun Bagul">20000</td>
+            <td>88XXXXXX13</td>
+            
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Anupriya Solanki</td>
+            <td>anumpriya@gmail.com</td>
+            <td id="Anupriya Solanki">500500</td>
+            <td>98XXXXXX37</td>
+            
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Rahul Agnihotri</td>
+            <td>rahul@gmail.com</td>
+            <td id="Rahul Agnihotri">50000</td>
+            <td>78XXXXXX33</td>
+           
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>mrunal solanki</td>
+            <td>mrunal@gmail.com</td>
+            <td id="mrunal solanki">50600</td>
+            <td>98XXXXXX77</td>
+           
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Hansal rai</td>
+            <td>hansal@gmail.com</td>
+            <td id="Hansal rai">50000</td>
+            <td>95XXXXXX33</td>
+            
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>hamaira </td>
+            <td>hamaira@gmail.com</td>
+            <td id="hamaira">98000</td>
+            <td>96XXXXXX13</td>
+            
+          </tr>
+            <tr>
+            <td>9</td>
+            <td>mradul Sharma</td>
+            <td>mradul@gmail.com</td>
+            <td id="mradul Sharma">20000</td>
+            <td>98XXXXXX77</td>
+            
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Abhijeet bhardwaj</td>
+            <td>abhijeet@gmail.com</td>
+            <td id="Abhijeet bhardwaj">33333</td>
+            <td>98XXXXXX29</td>
+          </tr>
+
+      </table>
+      <!-- Modal -->
+      
+      <div class="modal fade" id="sendMoney" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Send Money</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <input type="text" id="senderName" class="form-control" placeholder="Your username"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        </div>
+                        <div class="input-group mb-3">
+                                <input type="text" id="receiverName" class="form-control" placeholder="Recipient's username"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">₹</span>
+                            </div>
+                            <input type="text" id="Amount" class="form-control" placeholder=" Enter Amount"
+                              >
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" id="click" class="btn btn-success" data-dismiss="modal">Send
+                        Money</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Transaction</h2>
+    <table class="table table-success table-striped" id="transaction">
+      <tr>
+        <!-- <th>S.No.</th> -->
+        <th>Sender</td>
+        <th>Receiver </td>
+        <th>Amount</td>
+      </tr>
+        
+      </tr>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="/meghajoshi762003.github.io/javascript/transaction.js"></script>
+  </body>
+</html>

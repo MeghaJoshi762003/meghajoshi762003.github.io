@@ -1,0 +1,20 @@
+.nav{
+    height:50px;
+    justify-content :right;
+    padding-left:25em;
+}
+.send
+{
+    text-align: right;
+    height:2.5rem;
+    
+}
+.button{
+    display: inline-block;
+    justify-content:flex-end;
+    
+}
+h2{
+    font-weight:150;
+    text-align: center;
+}
